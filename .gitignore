@@ -18,6 +18,8 @@
 ### Go Patch ###
 /vendor/
 /Godeps/
+
+### Build result ###
 /release
 
 

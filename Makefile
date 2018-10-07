@@ -1,0 +1,15 @@
+GOCOMMAND=go
+GOBUILD=build 
+
+RELEASE_DIR=release
+RELEASE_FILE=mangru
+
+build: 
+	mkdir -p $(RELEASE_DIR)
+	$(GOCOMMAND) $(GOBUILD) -o $(RELEASE_DIR)/$(RELEASE_FILE) -v
+
+run:
+	mkdir -p $(RELEASE_DIR)
+	$(GOCOMMAND) $(GOBUILD) -o $(RELEASE_DIR)/$(RELEASE_FILE) -v
+	./$(RELEASE_DIR)/$(RELEASE_FILE)
+	rm -rf $(RELEASE_DIR)

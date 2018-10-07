@@ -1,0 +1,2 @@
+config_type: "file"
+gate_config_path: "./configs/gate.yaml"

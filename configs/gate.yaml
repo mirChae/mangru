@@ -1,0 +1,4 @@
+type: "HTTP"
+port: "8000"
+read_timeout: 30
+write_timeout: 30
